@@ -1,0 +1,20 @@
+http://www.mkyong.com/maven/how-to-create-a-web-application-project-with-maven/
+
+mvn archetype:generate -DgroupId=com.mkyong -DartifactId=CounterWebApp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+
+mvn eclipse:eclipse -Dwtpversion=2.0
+
+5.1 Create a Spring MVC controller class.
+/src/main/java/com/mkyong/controller/BaseController.java
+
+mvn package
+
+mvn eclipse:eclipse
+
+mvn tomcat:run
+
+http://localhost:8080/CounterWebApp
+
+http://localhost:8080/CounterWebApp/mkyong
+
++++
